@@ -1,3 +1,5 @@
+# ignore python venv files and directories
+
 /bin/*
 
 /include/*
