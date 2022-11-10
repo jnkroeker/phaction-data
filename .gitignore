@@ -7,3 +7,17 @@
 /lib/*
 
 pyvenv.cfg
+
+# ignore directories created by jupyter notebooks
+
+/etc/*
+
+/share/*
+
+.ipynb_checkpoints
+
+# apple health exported files
+
+export.xml
+
+*.csv

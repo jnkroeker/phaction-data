@@ -1,6 +1,21 @@
-### Python Virtual Environment must be created and requests, urllib3 packages installed to execute this script
+### Python Virtual Environment must be created and notebook, requests, urllib3 packages
+### installed to execute script in this project
 
-	Laptop: venv in ~/Desktop/phaction_scripts/ * activate with `source ~/Desktop/phaction_scripts/bin/activate`
+1. Create a virtual environment by selecting a directory in which it will live and execute:
+
+   `python3 -m venv /path/to/new/virtual/environment`
+
+2. Once venv is created, activate it:
+
+   `source /path/to/new/virtual/environment/bin/activate`
+
+3. Install required packages once venv is activated:
+
+   `pip install notebook requests urllib3`
+   
+	
+#### On your laptop, John: venv is in ~/Desktop/phaction_scripts/ * 
+#### Activate it with `source ~/Desktop/phaction_scripts/bin/activate`
 
 ### fetch_strava_data.py:
 
@@ -16,7 +31,9 @@ You must upgrade your token access permissions to access Activity data. To do th
 3. in Postman execute `https://www.strava.com/oauth/token?client_id=<YOUR-CLIENT-ID>&client_secret=<YOUR-SECRET> \
    &code=<FROM-PREVIOUS-STEP>&grant_type=authorization_code
 
-4. post the ClientID, Client Secret and Authorization Code in approprate place in fetch_data.py
+4. post the ClientID, Client Secret and Authorization Code in approprate place in 'payload' variable of fetch_strava_data.py
+
+5. execute command: ./fetch_strava_data.py
 
 Credit:
 https://towardsdatascience.com/using-the-strava-api-and-pandas-to-explore-your-activity-data-d94901d9bfde
@@ -31,7 +48,7 @@ Process XML data manually exported from Apple Health.
 
 3. Airdrop from iPhone to MacBook
 
-4. Expand export.zip andove export.xml file to root of this directory
+4. Expand export.zip and move export.xml file to root of this directory
 
 5. Execute ./extract_apple_health_data.py ./export.xml
 

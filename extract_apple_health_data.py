@@ -1,6 +1,6 @@
 #!/Users/johnkroeker/Desktop/phaction_scripts/bin/python
 
-# ^ modify above to path displayed as the result of executing 'which python' in you venv
+# ^ modify above to path displayed as the result of executing 'which python' in your venv
 # the above points to the python in the venv created in ~/Desktop/phaction_resources/ on your laptop
 # remember to always source the venv before executing this script (`source ~/Desktop/phaction_scripts/bin/activate`)
 
