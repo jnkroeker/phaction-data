@@ -1,5 +1,14 @@
-### Python Virtual Environment must be created and notebook, requests, urllib3 packages
-### installed to execute script in this project
+### Data sources to be extracted:
+
+- [x] Strava
+- [x] Apple Health
+- [ ] SugarWOD/Wodify
+- [ ] Photos
+- [ ] GoPro Videos
+
+
+#### Python Virtual Environment must be created and notebook, requests, urllib3 packages
+#### installed to execute script in this project
 
 1. Create a virtual environment by selecting a directory in which it will live and execute:
 
@@ -11,11 +20,11 @@
 
 3. Install required packages once venv is activated:
 
-   `pip install notebook requests urllib3`
-   
+   `pip install notebook numpy pandas requests urllib3`
 	
 #### On your laptop, John: venv is in ~/Desktop/phaction_scripts/ * 
 #### Activate it with `source ~/Desktop/phaction_scripts/bin/activate`
+#### Exit venv with   `deactivate`
 
 ### fetch_strava_data.py:
 
@@ -53,3 +62,7 @@ Process XML data manually exported from Apple Health.
 5. Execute ./extract_apple_health_data.py ./export.xml
 
 Credit: http://www.markwk.com/data-analysis-for-apple-health.html
+
+#### **NOTE** There appears to be a problem with duplicate startDate attributes on the export.xml file from Apple Health
+
+### parse_sugarwod_data.ipynb

@@ -16,6 +16,10 @@ pyvenv.cfg
 
 .ipynb_checkpoints
 
+# personal data directory
+
+/observations/*
+
 # apple health exported files
 
 export.xml

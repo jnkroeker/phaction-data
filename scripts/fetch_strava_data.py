@@ -42,6 +42,5 @@ print(my_dataset[0]["map"]["summary_polyline"])
 
 # save data to a file
 # later to s3
-with open("data.json", "w") as outfile:
+with open("observations/strava/activities.json", "w+") as outfile:
     json.dump(my_dataset, outfile)
-
