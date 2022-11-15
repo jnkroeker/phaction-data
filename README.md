@@ -2,7 +2,7 @@
 
 - [x] Strava
 - [x] Apple Health
-- [ ] SugarWOD/Wodify
+- [x] SugarWOD/Wodify
 - [ ] Photos
 - [ ] GoPro Videos
 
@@ -20,7 +20,7 @@
 
 3. Install required packages once venv is activated:
 
-   `pip install notebook numpy pandas requests urllib3`
+   `pip install matplotlib notebook numpy pandas requests scikit-learn urllib3`
 	
 #### On your laptop, John: venv is in ~/Desktop/phaction_scripts/ * 
 #### Activate it with `source ~/Desktop/phaction_scripts/bin/activate`
