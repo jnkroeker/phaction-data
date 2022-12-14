@@ -25,3 +25,5 @@ pyvenv.cfg
 export.xml
 
 *.csv
+
+.DS_Store

@@ -66,3 +66,11 @@ Credit: http://www.markwk.com/data-analysis-for-apple-health.html
 #### **NOTE** There appears to be a problem with duplicate startDate attributes on the export.xml file from Apple Health
 
 ### parse_sugarwod_data.ipynb
+
+SugarWOD data is provided as CSV. With python, we can easily parse csv into dataframes and start working with it.
+
+No scripting required to get hold of the data, just go directly to jupyter notebook.
+
+### GoPro Data
+
+Could not get Open GoPro API working with `extract_gopro_media.py` script. Defaulting to reading the SD card.
