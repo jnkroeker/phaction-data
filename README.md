@@ -20,10 +20,10 @@
 
 3. Install required packages once venv is activated:
 
-   `pip install matplotlib notebook numpy pandas requests scikit-learn urllib3`
+   `pip install matplotlib notebook nbdev numpy pandas requests scikit-learn urllib3`
 	
-#### On your laptop, John: venv is in ~/Desktop/phaction_scripts/ * 
-#### Activate it with `source ~/Desktop/phaction_scripts/bin/activate`
+#### On your laptop, John: venv is in ~/phaction/  
+#### Activate it with `source ~/phaction/bin/activate`
 #### Exit venv with   `deactivate`
 
 ### fetch_strava_data.py:
