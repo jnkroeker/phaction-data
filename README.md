@@ -20,7 +20,7 @@
 
 3. Install required packages once venv is activated:
 
-   `pip install matplotlib notebook nbdev numpy pandas requests scikit-learn urllib3`
+   `pip install gradio fastai ipywidgets matplotlib notebook openpyxl nbdev numpy pandas requests scikit-learn urllib3`
 	
 #### On your laptop, John: venv is in ~/phaction/  
 #### Activate it with `source ~/phaction/bin/activate`
