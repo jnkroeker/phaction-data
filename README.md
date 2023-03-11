@@ -1,10 +1,11 @@
 ### Data sources to be extracted:
 
-- [x] Strava
 - [x] Apple Health
-- [x] SugarWOD/Wodify
-- [ ] Photos
 - [ ] GoPro Videos
+- [ ] Peloton
+- [ ] Photos
+- [x] Strava
+- [x] SugarWOD/Wodify
 
 
 #### Python Virtual Environment must be created and notebook, requests, urllib3 packages
