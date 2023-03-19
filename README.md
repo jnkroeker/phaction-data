@@ -7,6 +7,25 @@
 - [x] Strava
 - [x] SugarWOD/Wodify
 
+### Mantra
+
+Derived views allow gradual evolution. If you want to restructure a dataset, you do
+not need to perform the migration as a sudden switch. Instead, you can maintain the
+old schema and the new schema side by side as two independently derived views onto
+the same underlying data. You can then start shifting a small number of users to the
+new view in order to test its performance and find any bugs, while most users con‐
+tinue to be routed to the old view. Gradually, you can increase the proportion of
+users accessing the new view, and eventually you can drop the old view [10].
+The beauty of such a gradual migration is that every stage of the process is easily
+reversible if something goes wrong: you always have a working system to go back to.
+By reducing the risk of irreversible damage, you can be more confident about going
+ahead, and thus move faster to improve your system [11].
+
+[10] Jacqueline Xu: “Online Migrations at Scale,” stripe.com, February 2, 2017.
+
+[11] Molly Bartlett Dishman and Martin Fowler: “Agile Architecture,” at O’Reilly
+Software Architecture Conference, March 2015.
+
 
 #### Python Virtual Environment must be created and notebook, requests, urllib3 packages
 #### installed to execute script in this project
@@ -21,7 +40,7 @@
 
 3. Install required packages once venv is activated:
 
-   `pip install gradio fastai ipywidgets matplotlib notebook openpyxl nbdev numpy pandas requests scikit-learn urllib3`
+   `pip install fastai gradio ipywidgets matplotlib notebook nbdev numpy openpyxl pandas requests seaborn scikit-learn urllib3`
 	
 #### On your laptop, John: venv is in ~/phaction/  
 #### Activate it with `source ~/phaction/bin/activate`
