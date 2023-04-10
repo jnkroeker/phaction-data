@@ -28,7 +28,7 @@ Software Architecture Conference, March 2015.
 
 
 #### Python Virtual Environment must be created and notebook, requests, urllib3 packages
-#### installed to execute script in this project
+#### installed to execute scripts in this project
 
 1. Create a virtual environment by selecting a directory in which it will live and execute:
 
