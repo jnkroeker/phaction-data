@@ -6,6 +6,7 @@
 - [ ] Photos
 - [x] Strava
 - [x] SugarWOD/Wodify
+- [ ] Zwift
 
 ### Mantra
 
