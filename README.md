@@ -2,7 +2,7 @@
 
 - [x] Apple Health
 - [ ] GoPro Videos
-- [ ] Peloton
+- [x] Peloton
 - [ ] Photos
 - [x] Strava
 - [x] SugarWOD/Wodify
@@ -95,3 +95,7 @@ No scripting required to get hold of the data, just go directly to jupyter noteb
 ### GoPro Data
 
 Could not get Open GoPro API working with `extract_gopro_media.py` script. Defaulting to reading the SD card.
+
+### Peloton
+
+Only manual data download provided.
